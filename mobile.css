@@ -1,0 +1,542 @@
+@media (min-width: 51px) {
+  .percentage-off-img-banner-768px {
+    display: none;
+  }
+
+  .courtney-k-img-768px {
+    display: none;
+  }
+
+  .dress-fifth-teen-img-desktop {
+    display: none;
+  }
+
+  .layer-season-img-desktop {
+    display: none;
+  }
+
+  .laidback-looks-img-desktop {
+    display: none;
+  }
+
+  .laidback-looks-img-desktop {
+    display: none;
+  }
+
+  .halloween-img-desktop {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .header-bottom-nav {
+    display: none;
+  }
+
+  .footer-contents-desktop {
+    display: none;
+  }
+
+  .footer-bottom-desktop {
+    display: none;
+  }
+
+}
+
+/* Phone Small */
+
+@media (min-width: 320px) {
+  #bag {
+    display: none;
+  }
+
+  .discount-descript {
+    font-size: 10px;
+  }
+
+  .percent-offer {
+    font-size: 30px;
+  }
+}
+
+/* Phone Medium */
+
+@media (min-width: 375px) {
+  #bag {
+    display: block;
+  }
+
+  .percent-offer {
+    font-size: 40px;
+  }
+}
+
+/* tablet Large */
+
+@media (min-width: 768px) {
+  .percentage-off-img-banner-768px {
+    display: block;
+  }
+
+  .percentage-off-img-banner {
+    display: none;
+  }
+  
+  .percentage-off-banner-promotioanl-advertisement {
+    padding-bottom: 2px;
+  }
+  
+  .percentage-off-banner-img-container {
+    background-color: transparent;
+    height: 100%;
+  }
+
+  .excludes-text {
+    display: none;
+  }
+
+  .courtney-k-img {
+    display: none;
+  }
+
+  .courtney-k-img-768px {
+    display: block;
+  }
+
+  .category-img-link {
+    width: 200px;
+  }
+
+  .dress-fifth-teen-img {
+    display: none;
+  }
+
+  .dress-fifth-teen-img-desktop {
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .layer-season-img {
+    display: none;
+  }
+
+  .layer-season-img-desktop {
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .laidback-looks-img {
+    display: none;
+  }
+  
+  .laidback-looks-img-desktop {
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .halloween-img {
+    display: none;
+  }
+
+  .halloween-img-desktop {
+    display: block;
+  }
+
+  .new-season-promotion {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .category-img-link {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .category-slider-container {
+    padding: 0px 12%;
+  }
+
+  .category-img-link {
+    width: 350px;
+  }
+
+  .mobile-navbar {
+    display: none;
+  }
+
+  header {
+    height: 55px;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+  
+  .desktop-nav-inner-contents {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .logo-desktop {
+    padding-top: 10px;
+  }
+
+  .desktop-nav-links {
+    display: flex;
+  }
+
+  .nav-links-desktop {
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    width: 120px;
+    height: 56px;
+    border-bottom: #000 1px solid;
+  }
+
+  .nav-links-desktop-two {
+    border-right: 1px solid #d8d8d8;
+    width: 110px;
+    height: 56px;
+  }
+  
+  .nav-links-desktop-two:hover {
+    border-bottom: #000 1px solid;
+    transition: 0.15s ease-in-out;
+  }
+
+  .nav-links-desktop-portal-one {
+    top: 30%;
+    left: 20%;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .nav-links-desktop-portal-two {
+    top: 30%;
+    left: 30%;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .search-bar-inner-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 0%;
+  }
+
+  .search-bar-placeholder {
+    width: 800px;
+    padding-left: 2%;
+    font-size: 13px;
+    height: 55px;
+    border: none;
+    outline: none;
+  }
+
+  .search-bar-icon-desktop:hover {
+    opacity: 50%;
+  }
+
+  .search-img-container-desktop {
+    padding-right: 20px;
+  }
+
+  .search-bar {
+    border-right: 1px solid #d8d8d8;
+    padding-left: 20px;
+  }
+
+  .nav-links-icons {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-cons {
+    padding-top: 10%;
+  }
+
+  .header-bottom-nav {
+    display: block;
+    height: 50px;
+    border-top: 1px solid #d3d3d3;
+  }
+
+  .header-bottom-nav-inner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7%;
+    gap: 20px;
+  }
+
+  .Kourtney-link {
+    text-decoration: none;
+  }
+
+  .Kourtney-link-text {
+    font-size: 10px;
+    color: #000;
+    font-family: 'Akira-expanded, sans-serif';
+  }
+
+  .bottom-header-nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .bottom-header-nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+  }
+
+  .bottom-header-nav-links a:hover {
+    color: rgb(135, 135, 135);
+    transition: all 0.15s ease-in-out;
+  }
+
+  .sale-link-text {
+    font-size: 11px;
+    color: #fb00bd;
+    font-family: 'Akira-expanded, sans-serif';
+  }
+
+  .sale-link {
+    text-decoration: none;
+  }
+
+  .footer-contents {
+    display: none;
+  }
+  
+  .quick-links-contents {
+    display: none;
+  }
+
+  .footer-contents-desktop-contents {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .quick-links-desktop-heading {
+    padding-bottom: 15px;
+  }
+
+  .destination-desktop {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+  }
+
+  .footer-contents-desktop {
+    display: block;
+  }
+
+  .quick-link-heading {
+    color: #000;
+  }
+
+  #destination-desktop-one {
+    border: 1px solid #d8d8d8;
+  }
+
+  #destination-desktop-two {
+    border-right: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .country-desktop {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+
+  .quick-links-nav-links-container {
+    padding-bottom: 40px;
+  }
+
+  .quick-links-desktop-heading {
+    font-size: 15px;
+  }
+
+  .about-us-footer-desktop-heading {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+
+  .about-us-nav-links-desktop {
+   display: grid;
+   gap: 10px;
+  }
+
+  .about-us-nav-links-portal-desktop {
+    list-style: none;
+  }
+
+  .about-us-nav-links-portal-desktop a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .about-us-nav-links-portal-desktop a:hover {
+    text-decoration: underline;
+    transition: 0.15s ease-in-out;
+  }
+
+  .middle-footer-contents-desktop {
+    display: flex;
+    gap: 100px;
+  }
+
+  .information-footer-desktop-heading {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+
+  .information-nav-links-portal-desktop {
+    list-style: none;
+  }
+
+  .information-nav-links-portal-desktop a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .information-nav-links-desktop a:hover {
+    text-decoration: underline;
+    transition: 0.15s ease-in-out;
+  }
+
+  .information-nav-links-desktop {
+    display: grid;
+    gap: 10px;
+  }
+
+  .subscribe-newsletter-heading-desktop {
+    font-size: 15px;
+    padding-bottom: 25px;
+  }
+
+  .subscribe-descript-desktop {
+    font-size: 13px;
+    width: 520px;
+    padding-bottom: 15px;
+  }
+
+  .email-footer-desktop {
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .submit-desktop {
+    width: 100px;
+    height: 35px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+  }
+
+  .email-desktop {
+    width: 420px;
+    padding: 10px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #d3d3d3;
+  }
+
+  .subscribe-check-content-desktop {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .sign-up-descript-desktop, .sign-up-descript-desktop a {
+    font-size: 13px;
+    color: #000;
+  }
+
+  .website-socials-inner-wrapper {
+    padding: 20px 0;
+    justify-content: flex-start;
+  }
+
+  .footer-bottom-desktop {
+    margin-top: 100px;
+    display: block;
+  }
+
+  .copyright-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 830px;
+    
+  }
+}
+
+@media (min-width: 1920px) {
+  .percentage-off-banner-img-container {
+    display: grid;
+    justify-content: center;
+    background-color: transparent;
+
+  }
+
+  .courtney-kardashian-banner-inner-wrapper {
+    display: grid;
+    justify-content: center;
+  }
+
+  .category-slider-container {
+    display: grid;
+    justify-content: center;
+  }
+
+  .category-img-link {
+    width: 350px;
+  }
+
+  .dress-fifth-teen {
+    display: grid;
+    justify-content: center;
+  }
+
+  .layer-season {
+    display: grid;
+    justify-content: center;
+  }
+
+  .laidback-looks {
+    display: grid;
+    justify-content: center;
+  }
+
+  .Halloween {
+    display: grid;
+    justify-content: center; 
+  }
+}
+
+@media (min-width: 2560px) {
+  .category-slider-container {
+    padding: 0px 18%;
+  }
+
+  .category-img-link {
+    width: 400px;
+  }
+}

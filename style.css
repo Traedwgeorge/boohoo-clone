@@ -1,0 +1,531 @@
+@font-face {
+  src: url(fonts/Akira\ Expanded\ Demo.otf);
+  font-family: 'Akira-expanded, sans-serif';
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* Annnouncement Banner */
+
+.student-discount {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px;
+}
+
+.discount-descript {
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+
+.discount-descript a {
+  color: #fff;
+}
+
+.announcement-banner {
+  background-color: #000;
+  height: 6.5vh;
+  width: 100%;
+}
+
+.announcement-banner-contents {
+  padding-top: 5px;
+}
+
+/* Header */
+.bar1, .bar2, .bar3 {
+  background-color: #000;
+  width: 20px;
+  height: 1px;
+  margin: 8px;
+}
+
+.bars {
+  cursor: pointer;
+}
+
+.logo-img {
+  cursor: pointer;
+}
+
+.navbar-right-contents-mobile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-left-contents-mobile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.mobile-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 2%;
+}
+
+.search-btn-img {
+  cursor: pointer;
+}
+
+.search-btn-img:hover {
+  opacity: 50%;
+  transition: 0.15s ease-in-out;
+}
+
+.account-btn-img {
+  cursor: pointer;
+}
+
+.account-btn-img:hover {
+  opacity: 50%;
+  transition: 0.15s ease-in-out;
+}
+
+.wishlist-btn-img {
+  cursor: pointer;
+}
+
+.wishlist-btn-img:hover {
+  opacity: 50%;
+  transition: 0.15s ease-in-out;
+}
+
+.bag-btn-img {
+  cursor: pointer;
+}
+
+.bag-btn-img:hover {
+  opacity: 50%;
+  transition: 0.15s ease-in-out;
+}
+
+header {
+  width: 100%;
+  background-color: #ffffff;
+  height: 50px;
+}
+
+
+
+/* Percentage Off Sale Banner */
+
+.percentage-off-banner-img-container {
+  display: grid;
+  width: 100%;
+  background-color: #000;
+  height: 110px;
+}
+
+.percentage-off-img-banner {
+  padding-top: 20px;
+  width: 100%;
+  max-width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
+
+.excludes-text {
+  color: #fff;
+  font-size: 10px;
+  text-align: right;
+  padding-right: 3%;
+}
+
+.percentage-off-banner-promotioanl-advertisement {
+  padding-bottom: 5px;
+  padding: 0;
+}
+
+/* Courtney K promotional Banner */
+
+.courtney-kardashian-banner-inner-wrapper {
+  width: 100%;
+  display: grid;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.category-img-link {
+  width: 180px;
+}
+
+.category-slider {
+  overflow-x: hidden;
+  padding-bottom: 20px;
+}
+
+.category-slider-container {
+  padding: 0px 3%;
+}
+
+.sliders {
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+}
+
+.sliders::-webkit-scrollbar {
+  display: none;
+}
+
+/* Inclusive Style Banner */
+
+.dress-fifth-teen {
+  width: 100%;
+  display: grid;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  padding: 0;
+}
+
+/* Layer Season */
+
+.layer-season {
+  display: grid;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 15px;
+  padding: 0;
+}
+
+
+/* Laidback Looks */
+
+.laidback-looks {
+  display: grid;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 15px;
+  padding: 0;
+}
+
+/* Halloween */
+
+.halloween-link {
+  display: grid;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  padding-bottom: 15px;
+}
+
+/* New Season */
+
+.new-season-img {
+  padding-bottom: 10px;
+  padding: 0;
+}
+
+.percent-offer {
+  font-weight: 900;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Akira-expanded, sans-serif';
+  width: fit-content;
+  
+}
+
+.new-season-text {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.excludes-info-offer {
+  text-align: center;
+  font-size: 10px;
+}
+
+.divider {
+  margin-top: 100px;
+  width: 100%;
+  height: 1px;
+  background-color: #e9e5e5;
+}
+
+/* Settlement */
+
+.class-settlement-message-contents {
+  margin-top: 40px;
+}
+
+.class-settlement-message-contents {
+  display: grid;
+  justify-content: center;
+  padding: 0px 3%;
+}
+
+.settlement-message {
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  width: fit-content;
+}
+
+.settlement-message a {
+  color: #000;
+}
+
+.divider-two {
+  margin-top: 50px;
+  width: 100%;
+  height: 1px;
+  background-color: #e9e5e5;
+}
+
+
+/* Payment */
+
+.payment-type {
+  width:  50px;
+  height: 30px;
+  object-fit: cover;
+}
+
+#paypal {
+  border-radius: 4px;
+  height: 25px;
+}
+
+.payments {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.divider-three {
+  margin-top: 20px;
+  width: 100%;
+  height: 1px;
+  background-color: #e9e5e5;
+}
+
+/* Quick Links */
+
+.quick-links-main {
+  margin-top: 50px;
+}
+
+.destination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 8%;
+  height: 50px;
+  cursor: pointer;
+}
+
+#destination-one {
+  border-top: 1px solid #e9e5e5;
+  border-right: 1px solid #e9e5e5;
+  border-bottom: 1px solid #e9e5e5;
+}
+
+#destination-two {
+  border-top: 1px solid #e9e5e5;
+  border-bottom: 1px solid #e9e5e5;
+}
+
+#destination-three {
+  border-bottom: 1px solid #e9e5e5;
+  border-right: 1px solid #e9e5e5;
+}
+
+#destination-four {
+  border-bottom: 1px solid #e9e5e5;
+}
+
+.arrow {
+  width: 10px;
+  object-fit: cover;
+}
+
+.quick-links-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.quick-links-heading {
+  padding: 0px 3%;
+  padding-bottom: 20px;
+  color: #000;
+  font-size: 1px;
+}
+
+.destination {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 40px;
+  height: 100vh;
+}
+
+.footer-destination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 4%;
+  height: 80px;
+  cursor: pointer;
+}
+
+.down-arrow {
+  width: 25px;
+  transform: rotate(90deg);
+}
+
+.link-heading {
+  font-size: 20px;
+}
+
+#footer-destination {
+  border-top: 1px solid #e9e5e5;
+  border-bottom: 1px solid #e9e5e5;
+}
+
+
+.footer-destination {
+  color: #000;
+  text-decoration: none;
+}
+
+#footer-destination-two {
+  border-bottom: 1px solid #e9e5e5;
+}
+
+.subscribe-newsletter-heading {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.subscribe-form {
+  margin-top: 40px;
+}
+
+.email-footer {
+  display: grid;
+  padding: 0px 6%;
+}
+
+.email {
+ width: 100%;
+  height: 50px;
+  padding-left: 2%;
+  border: 1px solid rgb(219, 219, 219);
+  outline: none;
+}
+
+.subscribe-discount-offer {
+  display: grid;
+  margin-top: 20px;
+  padding: 0px 6%;
+}
+
+.subscribe-descript {
+  font-size: 13px;
+}
+
+.subscribe-check-content {
+  display: flex;
+  padding: 10px 6%;
+  gap: 5px;
+}
+
+.sign-up-descript {
+  color: #000;
+}
+
+.sign-up-descript a {
+  color: #000;
+}
+
+.footer-email {
+  margin-top: 50px;
+}
+
+.submit-btn-container {
+  padding: 10px 6%;
+}
+
+.submit {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.website-socials-inner-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10%;
+  gap: 10px;
+  align-items: center;
+}
+
+.country-selector {
+  padding: 10px 3%;
+}
+
+.select-country {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #e9e5e5;
+  outline: none;
+}
+
+.country {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.socials-img {
+  cursor: pointer;
+}
+
+.copyright-container {
+  display: grid;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.copyright-links a {
+  color: #000;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.copyright-links a:hover {
+  text-decoration: none;
+  color: #999999;
+  transition: 0.15s ease-in-out;
+}
